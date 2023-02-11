@@ -1,0 +1,28 @@
+PODS:
+  - GPUImage (0.1.7)
+  - JPImageresizerView (1.7.9)
+  - SnapKit (5.6.0)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - GPUImage (~> 0.1.7)
+  - JPImageresizerView (~> 1.7.7)
+  - SnapKit
+  - Toast-Swift (~> 5.0.1)
+
+SPEC REPOS:
+  trunk:
+    - GPUImage
+    - JPImageresizerView
+    - SnapKit
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  JPImageresizerView: eaa99b0ddce2995159c084ba9d79b98c6becfb72
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: 6f328b4a24585d5f5ed532b10281b98a28e4b6f6
+
+COCOAPODS: 1.11.3

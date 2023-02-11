@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Highup Italic Personal Use.ttf</string>
+		<string>AngelinaFreeForPersonalUs.ttf</string>
+		<string>Apane.ttf</string>
+		<string>aAttackGraffiti.ttf</string>
+		<string>BARBARA PERSONAL USE.ttf</string>
+		<string>BlurredLines.ttf</string>
+		<string>Ecoplanet Personal Use.ttf</string>
+		<string>Extrude.ttf</string>
+		<string>Futura.otf</string>
+		<string>Gridbug.ttf</string>
+		<string>Grooved Personal Use.ttf</string>
+		<string>Likewezt Italic Personal Use.ttf</string>
+		<string>Might Chain.ttf</string>
+		<string>MoveIt.ttf</string>
+		<string>Nixies.ttf</string>
+		<string>QabilFreeTrial.otf</string>
+		<string>Quicksilver Fast.ttf</string>
+	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>
