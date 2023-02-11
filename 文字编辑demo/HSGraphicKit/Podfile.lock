@@ -1,0 +1,24 @@
+PODS:
+  - GPUImage (0.1.7)
+  - JPImageresizerView (1.7.9)
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - GPUImage (~> 0.1.7)
+  - JPImageresizerView (~> 1.7.7)
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - GPUImage
+    - JPImageresizerView
+    - SnapKit
+
+SPEC CHECKSUMS:
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  JPImageresizerView: eaa99b0ddce2995159c084ba9d79b98c6becfb72
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: bf00e32a9a16990c79b6fc6cc2659e82b32b6dc3
+
+COCOAPODS: 1.11.3

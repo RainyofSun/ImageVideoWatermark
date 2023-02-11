@@ -1,0 +1,1040 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		603E745D64E9F6FAE58F2B8C /* Pods_HSGraphicKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB76143821E9EF84405E824 /* Pods_HSGraphicKit.framework */; };
+		7B708D1A287BB34E0023F7DB /* HSTextStyleEditManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B708D19287BB34E0023F7DB /* HSTextStyleEditManager.swift */; };
+		7B708D1D287BB3C10023F7DB /* HSToolBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B708D1C287BB3C10023F7DB /* HSToolBarItem.swift */; };
+		7B708D1F287BB4500023F7DB /* HSToolBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B708D1E287BB4500023F7DB /* HSToolBarCell.swift */; };
+		7B708D21287BB5E00023F7DB /* HSUIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B708D20287BB5E00023F7DB /* HSUIButton+Extension.swift */; };
+		7B708D23287BB67D0023F7DB /* HSToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B708D22287BB67D0023F7DB /* HSToolBar.swift */; };
+		7B708D25287BF4B50023F7DB /* HSTextEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B708D24287BF4B50023F7DB /* HSTextEditView.swift */; };
+		7B708D29287BFE4D0023F7DB /* HSImageTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B708D28287BFE4D0023F7DB /* HSImageTool.swift */; };
+		7B708D2B287C1F3F0023F7DB /* HSTextStyleEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B708D2A287C1F3F0023F7DB /* HSTextStyleEditView.swift */; };
+		7B708D2D287C27540023F7DB /* HSTextAlignmentEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B708D2C287C27540023F7DB /* HSTextAlignmentEditView.swift */; };
+		7B708D2F287D1D2C0023F7DB /* HSKeyboardTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B708D2E287D1D2C0023F7DB /* HSKeyboardTextView.swift */; };
+		7B708D31287D1E030023F7DB /* HSKeyboardInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B708D30287D1E030023F7DB /* HSKeyboardInputView.swift */; };
+		7B708D33287D22FA0023F7DB /* HSTextInputManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B708D32287D22FA0023F7DB /* HSTextInputManager.swift */; };
+		7B708D37287D54CD0023F7DB /* HSImageFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B708D36287D54CD0023F7DB /* HSImageFilterViewController.swift */; };
+		7B708D3B287D67AB0023F7DB /* HSTextEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B708D3A287D67AB0023F7DB /* HSTextEditViewController.swift */; };
+		7B708D3F287D80430023F7DB /* HSVideoEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B708D3E287D80430023F7DB /* HSVideoEditViewController.swift */; };
+		7B708D42287D80AA0023F7DB /* HSVideoEditManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B708D41287D80AA0023F7DB /* HSVideoEditManager.swift */; };
+		7B708D44287D8D8B0023F7DB /* IMG_5762.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7B708D43287D8D8B0023F7DB /* IMG_5762.mp4 */; };
+		7B708D47287E5F5F0023F7DB /* HSVideoTextWatermarkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B708D46287E5F5F0023F7DB /* HSVideoTextWatermarkModel.swift */; };
+		7B708D49287E60300023F7DB /* HSVideoWatermarkInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B708D48287E60300023F7DB /* HSVideoWatermarkInfoModel.swift */; };
+		7B708D4B287E60C00023F7DB /* HSVideoImageWatermarkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B708D4A287E60C00023F7DB /* HSVideoImageWatermarkModel.swift */; };
+		7B708D4F287E78B20023F7DB /* HSLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B708D4E287E78B20023F7DB /* HSLocationViewController.swift */; };
+		7B708D58287EB6100023F7DB /* HSTextLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B708D57287EB6100023F7DB /* HSTextLayer.swift */; };
+		7B8CA3892878120F00820EC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CA3882878120F00820EC6 /* AppDelegate.swift */; };
+		7B8CA3902878120F00820EC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B8CA38E2878120F00820EC6 /* Main.storyboard */; };
+		7B8CA3922878121100820EC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B8CA3912878121100820EC6 /* Assets.xcassets */; };
+		7B8CA3952878121100820EC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B8CA3932878121100820EC6 /* LaunchScreen.storyboard */; };
+		7B8CA3A02878121100820EC6 /* HSGraphicKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CA39F2878121100820EC6 /* HSGraphicKitTests.swift */; };
+		7B8CA3AA2878121100820EC6 /* HSGraphicKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CA3A92878121100820EC6 /* HSGraphicKitUITests.swift */; };
+		7B8CA3AC2878121100820EC6 /* HSGraphicKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CA3AB2878121100820EC6 /* HSGraphicKitUITestsLaunchTests.swift */; };
+		7B8CA3B92878123700820EC6 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CA3B82878123700820EC6 /* RootViewController.swift */; };
+		7B8CA3BE287814A100820EC6 /* HSNSAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CA3BD287814A100820EC6 /* HSNSAttributedString+Extension.swift */; };
+		7B8CA3C1287815F200820EC6 /* HSEditTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CA3C0287815F200820EC6 /* HSEditTagView.swift */; };
+		7B8CA3C32878187700820EC6 /* HSBaseEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CA3C22878187700820EC6 /* HSBaseEditView.swift */; };
+		7B8CA3C628781DBE00820EC6 /* HSPlaceHolderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CA3C528781DBE00820EC6 /* HSPlaceHolderTextView.swift */; };
+		7B8CA3C82878238800820EC6 /* HSCanvasTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CA3C72878238800820EC6 /* HSCanvasTextView.swift */; };
+		7B8CA3CA28782E7600820EC6 /* HSEditContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CA3C928782E7600820EC6 /* HSEditContentView.swift */; };
+		7B8CA3CC2878365200820EC6 /* HSTextInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CA3CB2878365200820EC6 /* HSTextInfoModel.swift */; };
+		7B8CA3CE287837D400820EC6 /* HSImageInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CA3CD287837D400820EC6 /* HSImageInfoModel.swift */; };
+		7B8CA3D02878382B00820EC6 /* HSImageTextLayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CA3CF2878382B00820EC6 /* HSImageTextLayerModel.swift */; };
+		7B8CA3D228790E5000820EC6 /* HSTextEditElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CA3D128790E5000820EC6 /* HSTextEditElementView.swift */; };
+		7B8CA3D4287919ED00820EC6 /* HSLogPrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CA3D3287919ED00820EC6 /* HSLogPrint.swift */; };
+		7B8CA3D72879266B00820EC6 /* HSBaseEditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CA3D62879266B00820EC6 /* HSBaseEditViewModel.swift */; };
+		7B8CA3D9287952FA00820EC6 /* HSImageEditElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CA3D8287952FA00820EC6 /* HSImageEditElementView.swift */; };
+		7B8CA3DC287962FF00820EC6 /* HSImageCropManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CA3DB287962FF00820EC6 /* HSImageCropManager.swift */; };
+		7B8CA3DF2879665200820EC6 /* HSImageCropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CA3DE2879665200820EC6 /* HSImageCropViewController.swift */; };
+		7B8CA3E1287968B100820EC6 /* HSImageEditManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CA3E0287968B100820EC6 /* HSImageEditManager.swift */; };
+		7B8CA3E428796D9000820EC6 /* HSImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CA3E328796D9000820EC6 /* HSImageService.swift */; };
+		7B8CA3E628796EC900820EC6 /* HSTextService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CA3E528796EC900820EC6 /* HSTextService.swift */; };
+		7B8CA3E8287985CB00820EC6 /* HSImageEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CA3E7287985CB00820EC6 /* HSImageEditView.swift */; };
+		7B8CA3EC287AFF1D00820EC6 /* HSImageTextEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CA3EB287AFF1D00820EC6 /* HSImageTextEditViewController.swift */; };
+		7B8CA3EE287B02C900820EC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CA3ED287B02C900820EC6 /* SceneDelegate.swift */; };
+		7B8CA3F0287B07F900820EC6 /* HSBaseBackgoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CA3EF287B07F900820EC6 /* HSBaseBackgoundView.swift */; };
+		7B8CA3F2287B09AF00820EC6 /* HSJaggedLayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CA3F1287B09AF00820EC6 /* HSJaggedLayerView.swift */; };
+		7B8CA3F4287B0DEE00820EC6 /* HSUIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CA3F3287B0DEE00820EC6 /* HSUIColor+Extension.swift */; };
+		7B8CA3F6287B0FE900820EC6 /* HSSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CA3F5287B0FE900820EC6 /* HSSafeArea.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B8CA39C2878121100820EC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B8CA37D2878120F00820EC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B8CA3842878120F00820EC6;
+			remoteInfo = HSGraphicKit;
+		};
+		7B8CA3A62878121100820EC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B8CA37D2878120F00820EC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B8CA3842878120F00820EC6;
+			remoteInfo = HSGraphicKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EFA3C682F7A415BCCD73FF6 /* Pods-HSGraphicKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSGraphicKit.release.xcconfig"; path = "Target Support Files/Pods-HSGraphicKit/Pods-HSGraphicKit.release.xcconfig"; sourceTree = "<group>"; };
+		75F8D4F1AAF61652B2A4A212 /* Pods-HSGraphicKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSGraphicKit.debug.xcconfig"; path = "Target Support Files/Pods-HSGraphicKit/Pods-HSGraphicKit.debug.xcconfig"; sourceTree = "<group>"; };
+		7B708D19287BB34E0023F7DB /* HSTextStyleEditManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSTextStyleEditManager.swift; sourceTree = "<group>"; };
+		7B708D1C287BB3C10023F7DB /* HSToolBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSToolBarItem.swift; sourceTree = "<group>"; };
+		7B708D1E287BB4500023F7DB /* HSToolBarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSToolBarCell.swift; sourceTree = "<group>"; };
+		7B708D20287BB5E00023F7DB /* HSUIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HSUIButton+Extension.swift"; sourceTree = "<group>"; };
+		7B708D22287BB67D0023F7DB /* HSToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSToolBar.swift; sourceTree = "<group>"; };
+		7B708D24287BF4B50023F7DB /* HSTextEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSTextEditView.swift; sourceTree = "<group>"; };
+		7B708D28287BFE4D0023F7DB /* HSImageTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSImageTool.swift; sourceTree = "<group>"; };
+		7B708D2A287C1F3F0023F7DB /* HSTextStyleEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSTextStyleEditView.swift; sourceTree = "<group>"; };
+		7B708D2C287C27540023F7DB /* HSTextAlignmentEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSTextAlignmentEditView.swift; sourceTree = "<group>"; };
+		7B708D2E287D1D2C0023F7DB /* HSKeyboardTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSKeyboardTextView.swift; sourceTree = "<group>"; };
+		7B708D30287D1E030023F7DB /* HSKeyboardInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSKeyboardInputView.swift; sourceTree = "<group>"; };
+		7B708D32287D22FA0023F7DB /* HSTextInputManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSTextInputManager.swift; sourceTree = "<group>"; };
+		7B708D36287D54CD0023F7DB /* HSImageFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSImageFilterViewController.swift; sourceTree = "<group>"; };
+		7B708D3A287D67AB0023F7DB /* HSTextEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSTextEditViewController.swift; sourceTree = "<group>"; };
+		7B708D3E287D80430023F7DB /* HSVideoEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSVideoEditViewController.swift; sourceTree = "<group>"; };
+		7B708D41287D80AA0023F7DB /* HSVideoEditManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSVideoEditManager.swift; sourceTree = "<group>"; };
+		7B708D43287D8D8B0023F7DB /* IMG_5762.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG_5762.mp4; sourceTree = "<group>"; };
+		7B708D46287E5F5F0023F7DB /* HSVideoTextWatermarkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSVideoTextWatermarkModel.swift; sourceTree = "<group>"; };
+		7B708D48287E60300023F7DB /* HSVideoWatermarkInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSVideoWatermarkInfoModel.swift; sourceTree = "<group>"; };
+		7B708D4A287E60C00023F7DB /* HSVideoImageWatermarkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSVideoImageWatermarkModel.swift; sourceTree = "<group>"; };
+		7B708D4E287E78B20023F7DB /* HSLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSLocationViewController.swift; sourceTree = "<group>"; };
+		7B708D57287EB6100023F7DB /* HSTextLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSTextLayer.swift; sourceTree = "<group>"; };
+		7B8CA3852878120F00820EC6 /* HSGraphicKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSGraphicKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B8CA3882878120F00820EC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7B8CA38F2878120F00820EC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B8CA3912878121100820EC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B8CA3942878121100820EC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B8CA3962878121100820EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B8CA39B2878121100820EC6 /* HSGraphicKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HSGraphicKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B8CA39F2878121100820EC6 /* HSGraphicKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSGraphicKitTests.swift; sourceTree = "<group>"; };
+		7B8CA3A52878121100820EC6 /* HSGraphicKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HSGraphicKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B8CA3A92878121100820EC6 /* HSGraphicKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSGraphicKitUITests.swift; sourceTree = "<group>"; };
+		7B8CA3AB2878121100820EC6 /* HSGraphicKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSGraphicKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7B8CA3B82878123700820EC6 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		7B8CA3BD287814A100820EC6 /* HSNSAttributedString+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HSNSAttributedString+Extension.swift"; sourceTree = "<group>"; };
+		7B8CA3C0287815F200820EC6 /* HSEditTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSEditTagView.swift; sourceTree = "<group>"; };
+		7B8CA3C22878187700820EC6 /* HSBaseEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSBaseEditView.swift; sourceTree = "<group>"; };
+		7B8CA3C528781DBE00820EC6 /* HSPlaceHolderTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSPlaceHolderTextView.swift; sourceTree = "<group>"; };
+		7B8CA3C72878238800820EC6 /* HSCanvasTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSCanvasTextView.swift; sourceTree = "<group>"; };
+		7B8CA3C928782E7600820EC6 /* HSEditContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSEditContentView.swift; sourceTree = "<group>"; };
+		7B8CA3CB2878365200820EC6 /* HSTextInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSTextInfoModel.swift; sourceTree = "<group>"; };
+		7B8CA3CD287837D400820EC6 /* HSImageInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSImageInfoModel.swift; sourceTree = "<group>"; };
+		7B8CA3CF2878382B00820EC6 /* HSImageTextLayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSImageTextLayerModel.swift; sourceTree = "<group>"; };
+		7B8CA3D128790E5000820EC6 /* HSTextEditElementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSTextEditElementView.swift; sourceTree = "<group>"; };
+		7B8CA3D3287919ED00820EC6 /* HSLogPrint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSLogPrint.swift; sourceTree = "<group>"; };
+		7B8CA3D62879266B00820EC6 /* HSBaseEditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSBaseEditViewModel.swift; sourceTree = "<group>"; };
+		7B8CA3D8287952FA00820EC6 /* HSImageEditElementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSImageEditElementView.swift; sourceTree = "<group>"; };
+		7B8CA3DB287962FF00820EC6 /* HSImageCropManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSImageCropManager.swift; sourceTree = "<group>"; };
+		7B8CA3DE2879665200820EC6 /* HSImageCropViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSImageCropViewController.swift; sourceTree = "<group>"; };
+		7B8CA3E0287968B100820EC6 /* HSImageEditManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSImageEditManager.swift; sourceTree = "<group>"; };
+		7B8CA3E328796D9000820EC6 /* HSImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSImageService.swift; sourceTree = "<group>"; };
+		7B8CA3E528796EC900820EC6 /* HSTextService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSTextService.swift; sourceTree = "<group>"; };
+		7B8CA3E7287985CB00820EC6 /* HSImageEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSImageEditView.swift; sourceTree = "<group>"; };
+		7B8CA3EB287AFF1D00820EC6 /* HSImageTextEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSImageTextEditViewController.swift; sourceTree = "<group>"; };
+		7B8CA3ED287B02C900820EC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7B8CA3EF287B07F900820EC6 /* HSBaseBackgoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSBaseBackgoundView.swift; sourceTree = "<group>"; };
+		7B8CA3F1287B09AF00820EC6 /* HSJaggedLayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSJaggedLayerView.swift; sourceTree = "<group>"; };
+		7B8CA3F3287B0DEE00820EC6 /* HSUIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HSUIColor+Extension.swift"; sourceTree = "<group>"; };
+		7B8CA3F5287B0FE900820EC6 /* HSSafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSSafeArea.swift; sourceTree = "<group>"; };
+		FDB76143821E9EF84405E824 /* Pods_HSGraphicKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HSGraphicKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B8CA3822878120F00820EC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				603E745D64E9F6FAE58F2B8C /* Pods_HSGraphicKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B8CA3982878121100820EC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B8CA3A22878121100820EC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B708D1B287BB3990023F7DB /* ToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				7B708D1C287BB3C10023F7DB /* HSToolBarItem.swift */,
+				7B708D1E287BB4500023F7DB /* HSToolBarCell.swift */,
+				7B708D22287BB67D0023F7DB /* HSToolBar.swift */,
+			);
+			path = ToolBar;
+			sourceTree = "<group>";
+		};
+		7B708D34287D54AD0023F7DB /* ImageFilter */ = {
+			isa = PBXGroup;
+			children = (
+				7B708D35287D54BC0023F7DB /* ViewController */,
+			);
+			path = ImageFilter;
+			sourceTree = "<group>";
+		};
+		7B708D35287D54BC0023F7DB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7B708D36287D54CD0023F7DB /* HSImageFilterViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7B708D38287D678B0023F7DB /* TextEdit */ = {
+			isa = PBXGroup;
+			children = (
+				7B708D39287D679A0023F7DB /* ViewController */,
+			);
+			path = TextEdit;
+			sourceTree = "<group>";
+		};
+		7B708D39287D679A0023F7DB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7B708D3A287D67AB0023F7DB /* HSTextEditViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7B708D3C287D80220023F7DB /* VideoEdit */ = {
+			isa = PBXGroup;
+			children = (
+				7B708D50287EB1930023F7DB /* LayerTool */,
+				7B708D45287E5F3B0023F7DB /* Model */,
+				7B708D40287D80940023F7DB /* Manager */,
+				7B708D3D287D802C0023F7DB /* ViewController */,
+			);
+			path = VideoEdit;
+			sourceTree = "<group>";
+		};
+		7B708D3D287D802C0023F7DB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7B708D3E287D80430023F7DB /* HSVideoEditViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7B708D40287D80940023F7DB /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				7B708D41287D80AA0023F7DB /* HSVideoEditManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		7B708D45287E5F3B0023F7DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7B708D46287E5F5F0023F7DB /* HSVideoTextWatermarkModel.swift */,
+				7B708D48287E60300023F7DB /* HSVideoWatermarkInfoModel.swift */,
+				7B708D4A287E60C00023F7DB /* HSVideoImageWatermarkModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7B708D4C287E786D0023F7DB /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				7B708D4D287E78A10023F7DB /* ViewController */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		7B708D4D287E78A10023F7DB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7B708D4E287E78B20023F7DB /* HSLocationViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7B708D50287EB1930023F7DB /* LayerTool */ = {
+			isa = PBXGroup;
+			children = (
+				7B708D57287EB6100023F7DB /* HSTextLayer.swift */,
+			);
+			path = LayerTool;
+			sourceTree = "<group>";
+		};
+		7B8CA37C2878120F00820EC6 = {
+			isa = PBXGroup;
+			children = (
+				7B8CA3872878120F00820EC6 /* HSGraphicKit */,
+				7B8CA39E2878121100820EC6 /* HSGraphicKitTests */,
+				7B8CA3A82878121100820EC6 /* HSGraphicKitUITests */,
+				7B8CA3862878120F00820EC6 /* Products */,
+				D502D7A47A2A79CA432E658A /* Pods */,
+				9B24A961C0932925D81F4A13 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7B8CA3862878120F00820EC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B8CA3852878120F00820EC6 /* HSGraphicKit.app */,
+				7B8CA39B2878121100820EC6 /* HSGraphicKitTests.xctest */,
+				7B8CA3A52878121100820EC6 /* HSGraphicKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B8CA3872878120F00820EC6 /* HSGraphicKit */ = {
+			isa = PBXGroup;
+			children = (
+				7B708D43287D8D8B0023F7DB /* IMG_5762.mp4 */,
+				7B708D4C287E786D0023F7DB /* Location */,
+				7B708D3C287D80220023F7DB /* VideoEdit */,
+				7B708D38287D678B0023F7DB /* TextEdit */,
+				7B708D34287D54AD0023F7DB /* ImageFilter */,
+				7B8CA3BA2878139E00820EC6 /* HSGraphicKit */,
+				7B8CA3882878120F00820EC6 /* AppDelegate.swift */,
+				7B8CA3ED287B02C900820EC6 /* SceneDelegate.swift */,
+				7B8CA3B82878123700820EC6 /* RootViewController.swift */,
+				7B8CA38E2878120F00820EC6 /* Main.storyboard */,
+				7B8CA3912878121100820EC6 /* Assets.xcassets */,
+				7B8CA3932878121100820EC6 /* LaunchScreen.storyboard */,
+				7B8CA3962878121100820EC6 /* Info.plist */,
+			);
+			path = HSGraphicKit;
+			sourceTree = "<group>";
+		};
+		7B8CA39E2878121100820EC6 /* HSGraphicKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B8CA39F2878121100820EC6 /* HSGraphicKitTests.swift */,
+			);
+			path = HSGraphicKitTests;
+			sourceTree = "<group>";
+		};
+		7B8CA3A82878121100820EC6 /* HSGraphicKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B8CA3A92878121100820EC6 /* HSGraphicKitUITests.swift */,
+				7B8CA3AB2878121100820EC6 /* HSGraphicKitUITestsLaunchTests.swift */,
+			);
+			path = HSGraphicKitUITests;
+			sourceTree = "<group>";
+		};
+		7B8CA3BA2878139E00820EC6 /* HSGraphicKit */ = {
+			isa = PBXGroup;
+			children = (
+				7B708D1B287BB3990023F7DB /* ToolBar */,
+				7B8CA3E228796D7F00820EC6 /* Services */,
+				7B8CA3DD2879663E00820EC6 /* Controller */,
+				7B8CA3DA287962E800820EC6 /* Manager */,
+				7B8CA3D52879265900820EC6 /* ViewModel */,
+				7B8CA3C428781D9D00820EC6 /* Base */,
+				7B8CA3BF287815C700820EC6 /* View */,
+				7B8CA3BC2878146400820EC6 /* Extension */,
+				7B8CA3BB287813B100820EC6 /* Model */,
+			);
+			path = HSGraphicKit;
+			sourceTree = "<group>";
+		};
+		7B8CA3BB287813B100820EC6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7B8CA3CB2878365200820EC6 /* HSTextInfoModel.swift */,
+				7B8CA3CD287837D400820EC6 /* HSImageInfoModel.swift */,
+				7B8CA3CF2878382B00820EC6 /* HSImageTextLayerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7B8CA3BC2878146400820EC6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7B8CA3BD287814A100820EC6 /* HSNSAttributedString+Extension.swift */,
+				7B8CA3D3287919ED00820EC6 /* HSLogPrint.swift */,
+				7B8CA3F3287B0DEE00820EC6 /* HSUIColor+Extension.swift */,
+				7B8CA3F5287B0FE900820EC6 /* HSSafeArea.swift */,
+				7B708D20287BB5E00023F7DB /* HSUIButton+Extension.swift */,
+				7B708D28287BFE4D0023F7DB /* HSImageTool.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		7B8CA3BF287815C700820EC6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7B8CA3C0287815F200820EC6 /* HSEditTagView.swift */,
+				7B8CA3D128790E5000820EC6 /* HSTextEditElementView.swift */,
+				7B8CA3D8287952FA00820EC6 /* HSImageEditElementView.swift */,
+				7B8CA3C72878238800820EC6 /* HSCanvasTextView.swift */,
+				7B8CA3C928782E7600820EC6 /* HSEditContentView.swift */,
+				7B8CA3E7287985CB00820EC6 /* HSImageEditView.swift */,
+				7B708D24287BF4B50023F7DB /* HSTextEditView.swift */,
+				7B708D2A287C1F3F0023F7DB /* HSTextStyleEditView.swift */,
+				7B708D2C287C27540023F7DB /* HSTextAlignmentEditView.swift */,
+				7B8CA3F1287B09AF00820EC6 /* HSJaggedLayerView.swift */,
+				7B708D2E287D1D2C0023F7DB /* HSKeyboardTextView.swift */,
+				7B708D30287D1E030023F7DB /* HSKeyboardInputView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7B8CA3C428781D9D00820EC6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7B8CA3C528781DBE00820EC6 /* HSPlaceHolderTextView.swift */,
+				7B8CA3C22878187700820EC6 /* HSBaseEditView.swift */,
+				7B8CA3EF287B07F900820EC6 /* HSBaseBackgoundView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		7B8CA3D52879265900820EC6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7B8CA3D62879266B00820EC6 /* HSBaseEditViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7B8CA3DA287962E800820EC6 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				7B8CA3DB287962FF00820EC6 /* HSImageCropManager.swift */,
+				7B8CA3E0287968B100820EC6 /* HSImageEditManager.swift */,
+				7B708D19287BB34E0023F7DB /* HSTextStyleEditManager.swift */,
+				7B708D32287D22FA0023F7DB /* HSTextInputManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		7B8CA3DD2879663E00820EC6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7B8CA3DE2879665200820EC6 /* HSImageCropViewController.swift */,
+				7B8CA3EB287AFF1D00820EC6 /* HSImageTextEditViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7B8CA3E228796D7F00820EC6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7B8CA3E328796D9000820EC6 /* HSImageService.swift */,
+				7B8CA3E528796EC900820EC6 /* HSTextService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9B24A961C0932925D81F4A13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDB76143821E9EF84405E824 /* Pods_HSGraphicKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D502D7A47A2A79CA432E658A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75F8D4F1AAF61652B2A4A212 /* Pods-HSGraphicKit.debug.xcconfig */,
+				2EFA3C682F7A415BCCD73FF6 /* Pods-HSGraphicKit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B8CA3842878120F00820EC6 /* HSGraphicKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B8CA3AF2878121100820EC6 /* Build configuration list for PBXNativeTarget "HSGraphicKit" */;
+			buildPhases = (
+				256E7EF39FD5959CD66F1DFD /* [CP] Check Pods Manifest.lock */,
+				7B8CA3812878120F00820EC6 /* Sources */,
+				7B8CA3822878120F00820EC6 /* Frameworks */,
+				7B8CA3832878120F00820EC6 /* Resources */,
+				CC4292AACE9A8281E99C90A7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HSGraphicKit;
+			productName = HSGraphicKit;
+			productReference = 7B8CA3852878120F00820EC6 /* HSGraphicKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B8CA39A2878121100820EC6 /* HSGraphicKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B8CA3B22878121100820EC6 /* Build configuration list for PBXNativeTarget "HSGraphicKitTests" */;
+			buildPhases = (
+				7B8CA3972878121100820EC6 /* Sources */,
+				7B8CA3982878121100820EC6 /* Frameworks */,
+				7B8CA3992878121100820EC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B8CA39D2878121100820EC6 /* PBXTargetDependency */,
+			);
+			name = HSGraphicKitTests;
+			productName = HSGraphicKitTests;
+			productReference = 7B8CA39B2878121100820EC6 /* HSGraphicKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B8CA3A42878121100820EC6 /* HSGraphicKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B8CA3B52878121100820EC6 /* Build configuration list for PBXNativeTarget "HSGraphicKitUITests" */;
+			buildPhases = (
+				7B8CA3A12878121100820EC6 /* Sources */,
+				7B8CA3A22878121100820EC6 /* Frameworks */,
+				7B8CA3A32878121100820EC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B8CA3A72878121100820EC6 /* PBXTargetDependency */,
+			);
+			name = HSGraphicKitUITests;
+			productName = HSGraphicKitUITests;
+			productReference = 7B8CA3A52878121100820EC6 /* HSGraphicKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B8CA37D2878120F00820EC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = HS;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					7B8CA3842878120F00820EC6 = {
+						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
+					};
+					7B8CA39A2878121100820EC6 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 7B8CA3842878120F00820EC6;
+					};
+					7B8CA3A42878121100820EC6 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 7B8CA3842878120F00820EC6;
+					};
+				};
+			};
+			buildConfigurationList = 7B8CA3802878120F00820EC6 /* Build configuration list for PBXProject "HSGraphicKit" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B8CA37C2878120F00820EC6;
+			productRefGroup = 7B8CA3862878120F00820EC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B8CA3842878120F00820EC6 /* HSGraphicKit */,
+				7B8CA39A2878121100820EC6 /* HSGraphicKitTests */,
+				7B8CA3A42878121100820EC6 /* HSGraphicKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B8CA3832878120F00820EC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B8CA3952878121100820EC6 /* LaunchScreen.storyboard in Resources */,
+				7B8CA3922878121100820EC6 /* Assets.xcassets in Resources */,
+				7B8CA3902878120F00820EC6 /* Main.storyboard in Resources */,
+				7B708D44287D8D8B0023F7DB /* IMG_5762.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B8CA3992878121100820EC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B8CA3A32878121100820EC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		256E7EF39FD5959CD66F1DFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HSGraphicKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC4292AACE9A8281E99C90A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HSGraphicKit/Pods-HSGraphicKit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HSGraphicKit/Pods-HSGraphicKit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HSGraphicKit/Pods-HSGraphicKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B8CA3812878120F00820EC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B708D1D287BB3C10023F7DB /* HSToolBarItem.swift in Sources */,
+				7B708D42287D80AA0023F7DB /* HSVideoEditManager.swift in Sources */,
+				7B708D3B287D67AB0023F7DB /* HSTextEditViewController.swift in Sources */,
+				7B8CA3EC287AFF1D00820EC6 /* HSImageTextEditViewController.swift in Sources */,
+				7B8CA3C82878238800820EC6 /* HSCanvasTextView.swift in Sources */,
+				7B8CA3F6287B0FE900820EC6 /* HSSafeArea.swift in Sources */,
+				7B708D1F287BB4500023F7DB /* HSToolBarCell.swift in Sources */,
+				7B8CA3DF2879665200820EC6 /* HSImageCropViewController.swift in Sources */,
+				7B8CA3D72879266B00820EC6 /* HSBaseEditViewModel.swift in Sources */,
+				7B8CA3E1287968B100820EC6 /* HSImageEditManager.swift in Sources */,
+				7B708D25287BF4B50023F7DB /* HSTextEditView.swift in Sources */,
+				7B8CA3CE287837D400820EC6 /* HSImageInfoModel.swift in Sources */,
+				7B708D21287BB5E00023F7DB /* HSUIButton+Extension.swift in Sources */,
+				7B708D31287D1E030023F7DB /* HSKeyboardInputView.swift in Sources */,
+				7B8CA3EE287B02C900820EC6 /* SceneDelegate.swift in Sources */,
+				7B8CA3C32878187700820EC6 /* HSBaseEditView.swift in Sources */,
+				7B708D49287E60300023F7DB /* HSVideoWatermarkInfoModel.swift in Sources */,
+				7B708D1A287BB34E0023F7DB /* HSTextStyleEditManager.swift in Sources */,
+				7B8CA3D4287919ED00820EC6 /* HSLogPrint.swift in Sources */,
+				7B8CA3E628796EC900820EC6 /* HSTextService.swift in Sources */,
+				7B708D2D287C27540023F7DB /* HSTextAlignmentEditView.swift in Sources */,
+				7B708D29287BFE4D0023F7DB /* HSImageTool.swift in Sources */,
+				7B708D2B287C1F3F0023F7DB /* HSTextStyleEditView.swift in Sources */,
+				7B8CA3D02878382B00820EC6 /* HSImageTextLayerModel.swift in Sources */,
+				7B8CA3892878120F00820EC6 /* AppDelegate.swift in Sources */,
+				7B708D58287EB6100023F7DB /* HSTextLayer.swift in Sources */,
+				7B8CA3D228790E5000820EC6 /* HSTextEditElementView.swift in Sources */,
+				7B8CA3BE287814A100820EC6 /* HSNSAttributedString+Extension.swift in Sources */,
+				7B708D2F287D1D2C0023F7DB /* HSKeyboardTextView.swift in Sources */,
+				7B8CA3DC287962FF00820EC6 /* HSImageCropManager.swift in Sources */,
+				7B8CA3CC2878365200820EC6 /* HSTextInfoModel.swift in Sources */,
+				7B8CA3C628781DBE00820EC6 /* HSPlaceHolderTextView.swift in Sources */,
+				7B708D3F287D80430023F7DB /* HSVideoEditViewController.swift in Sources */,
+				7B708D33287D22FA0023F7DB /* HSTextInputManager.swift in Sources */,
+				7B8CA3CA28782E7600820EC6 /* HSEditContentView.swift in Sources */,
+				7B8CA3C1287815F200820EC6 /* HSEditTagView.swift in Sources */,
+				7B708D4F287E78B20023F7DB /* HSLocationViewController.swift in Sources */,
+				7B708D23287BB67D0023F7DB /* HSToolBar.swift in Sources */,
+				7B8CA3F0287B07F900820EC6 /* HSBaseBackgoundView.swift in Sources */,
+				7B8CA3F4287B0DEE00820EC6 /* HSUIColor+Extension.swift in Sources */,
+				7B8CA3F2287B09AF00820EC6 /* HSJaggedLayerView.swift in Sources */,
+				7B8CA3D9287952FA00820EC6 /* HSImageEditElementView.swift in Sources */,
+				7B8CA3E8287985CB00820EC6 /* HSImageEditView.swift in Sources */,
+				7B708D37287D54CD0023F7DB /* HSImageFilterViewController.swift in Sources */,
+				7B8CA3E428796D9000820EC6 /* HSImageService.swift in Sources */,
+				7B8CA3B92878123700820EC6 /* RootViewController.swift in Sources */,
+				7B708D4B287E60C00023F7DB /* HSVideoImageWatermarkModel.swift in Sources */,
+				7B708D47287E5F5F0023F7DB /* HSVideoTextWatermarkModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B8CA3972878121100820EC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B8CA3A02878121100820EC6 /* HSGraphicKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B8CA3A12878121100820EC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B8CA3AA2878121100820EC6 /* HSGraphicKitUITests.swift in Sources */,
+				7B8CA3AC2878121100820EC6 /* HSGraphicKitUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B8CA39D2878121100820EC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B8CA3842878120F00820EC6 /* HSGraphicKit */;
+			targetProxy = 7B8CA39C2878121100820EC6 /* PBXContainerItemProxy */;
+		};
+		7B8CA3A72878121100820EC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B8CA3842878120F00820EC6 /* HSGraphicKit */;
+			targetProxy = 7B8CA3A62878121100820EC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B8CA38E2878120F00820EC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B8CA38F2878120F00820EC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B8CA3932878121100820EC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B8CA3942878121100820EC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B8CA3AD2878121100820EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B8CA3AE2878121100820EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B8CA3B02878121100820EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75F8D4F1AAF61652B2A4A212 /* Pods-HSGraphicKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8HR7KN9336;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HSGraphicKit/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "使用相册";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HS.HSGraphicKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B8CA3B12878121100820EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EFA3C682F7A415BCCD73FF6 /* Pods-HSGraphicKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8HR7KN9336;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HSGraphicKit/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "使用相册";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HS.HSGraphicKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7B8CA3B32878121100820EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8HR7KN9336;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HS.HSGraphicKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HSGraphicKit.app/HSGraphicKit";
+			};
+			name = Debug;
+		};
+		7B8CA3B42878121100820EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8HR7KN9336;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HS.HSGraphicKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HSGraphicKit.app/HSGraphicKit";
+			};
+			name = Release;
+		};
+		7B8CA3B62878121100820EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8HR7KN9336;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HS.HSGraphicKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HSGraphicKit;
+			};
+			name = Debug;
+		};
+		7B8CA3B72878121100820EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8HR7KN9336;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HS.HSGraphicKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HSGraphicKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B8CA3802878120F00820EC6 /* Build configuration list for PBXProject "HSGraphicKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B8CA3AD2878121100820EC6 /* Debug */,
+				7B8CA3AE2878121100820EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B8CA3AF2878121100820EC6 /* Build configuration list for PBXNativeTarget "HSGraphicKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B8CA3B02878121100820EC6 /* Debug */,
+				7B8CA3B12878121100820EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B8CA3B22878121100820EC6 /* Build configuration list for PBXNativeTarget "HSGraphicKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B8CA3B32878121100820EC6 /* Debug */,
+				7B8CA3B42878121100820EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B8CA3B52878121100820EC6 /* Build configuration list for PBXNativeTarget "HSGraphicKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B8CA3B62878121100820EC6 /* Debug */,
+				7B8CA3B72878121100820EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B8CA37D2878120F00820EC6 /* Project object */;
+}
